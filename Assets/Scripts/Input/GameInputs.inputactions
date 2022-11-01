@@ -1,0 +1,161 @@
+{
+    "name": "GameInputs",
+    "maps": [
+        {
+            "name": "TV",
+            "id": "0d59361b-63ea-4c12-96e7-422528f32baa",
+            "actions": [
+                {
+                    "name": "NextCamera",
+                    "type": "Button",
+                    "id": "dede349b-a76f-42a3-b6e5-26debd143b6e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PrevCamera",
+                    "type": "Button",
+                    "id": "2b278477-63b3-4e0a-a0a4-51fab664da4f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PowerOn",
+                    "type": "Button",
+                    "id": "1f63bd43-98b1-406a-9cf4-260388d54ded",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a87c9c82-d546-4297-a192-88016ff35108",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NextCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4af30288-08c5-4c5b-b4a7-b2f0172801d4",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrevCamera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "304210fc-126f-4bc3-8362-849f057acaea",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PowerOn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player",
+            "id": "e418e1cf-68ca-41b3-92dd-585d9ce1b7a2",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "839ed3a0-788d-40b0-8bb5-1c5db5b18fd0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Interaction",
+                    "type": "Button",
+                    "id": "e949d5dc-f395-4402-a575-728879d27922",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WASD",
+                    "id": "42101839-b5ee-4cc2-aa80-818174a303b3",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "1545ba71-76d9-4289-8c35-4253061b2f3b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "3048cff7-7e44-40d0-a0a6-cb42e2f063cc",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "03555808-8748-4557-90d2-14cd4f3ba402",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "2802cda8-1012-48f3-9f3d-7ded1a87ab02",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "d1009eaa-1f8f-41b8-b4e5-07aebbd3258e",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interaction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

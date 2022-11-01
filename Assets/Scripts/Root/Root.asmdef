@@ -1,0 +1,18 @@
+{
+    "name": "Root",
+    "references": [
+        "GUID:0f0822e857e3fb042866ade6b8976d2b",
+        "GUID:1bc3390d2057e944c9cb5c836ef4bed9",
+        "GUID:a28a6a23ad9b06a44bf8041492c0fbd8",
+        "GUID:d5ed753562bd1084dabf37b63eb6471e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

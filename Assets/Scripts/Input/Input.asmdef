@@ -1,0 +1,17 @@
+{
+    "name": "Input",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:a28a6a23ad9b06a44bf8041492c0fbd8",
+        "GUID:1bc3390d2057e944c9cb5c836ef4bed9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
